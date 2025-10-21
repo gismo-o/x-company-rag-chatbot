@@ -156,19 +156,28 @@ Uygulama `http://localhost:8501` adresinde başlayacaktır.
 x-company-rag-chatbot/
 │
 ├── .streamlit/
-│   └── secrets.toml        # Streamlit deploy için hassas bilgiler
+│   └── secrets.toml         # Streamlit Cloud deploy'u için hassas bilgiler (repo'ya dahil değil).
 │
-├── data/                   # Chatbot'un bilgi kaynağı olan tüm dokümanlar
+├── assets/
+│   ├── arayuz.png           # README'de kullanılan proje görselleri.
+│   ├── IT-ticket.png
+│   └── db.png
+│
+├── data/                    # Chatbot'un bilgi kaynağı olan tüm PDF ve CSV dokümanları.
 │   ├── BT_Politikasi.pdf
 │   ├── xcompany_calisan_listesi.csv
-│   └── ...
+│   ├── Finans_Politikasi.pdf
+│   ├── Ofis_Yonetimi.pdf
+│   ├── IK_Politikasi.pdf
+│   └── yazilimlar.csv
 │
-├── .env
-├── .gitignore              # Git tarafından takip edilmeyecek dosyalar
-├── app.py                  # Streamlit uygulamasının ana kodu
-├── csv_configs.json        # Modüler CSV işleme için şablon dosyası
-├── packages.txt            # Streamlit Cloud için sistem bağımlılıkları
-└── requirements.txt        # Python kütüphane bağımlılıkları
+├── .env                     # Yerel geliştirme için API anahtarları
+├── .gitignore               # Git tarafından takip edilmeyecek dosya ve klasörlerin listesi.
+├── app.py                   # Streamlit uygulamasının tüm mantığını içeren ana kod.
+├── csv_configs.json         # CSV dosyalarının metne dönüştürülme şablonlarını içeren konfigürasyon dosyası.
+├── IT_tickets_model.ipynb   # IT niyet sınıflandırma modelini eğitmek için kullanılan Jupyter Notebook.
+├── packages.txt             # Streamlit Cloud için gerekli olan sistem (apt-get) bağımlılıkları.
+└── requirements.txt         # Projenin ihtiyaç duyduğu Python kütüphaneleri.
 ```
 
 ---
@@ -218,7 +227,7 @@ Uygulama, kullanıcıdan bir soru aldığında iki aşamalı bir mantıkla çal�
 
 ### 📝 Önemli Notlar
 
-- **Modelin Yüklenmesi:** IT niyet sınıflandırma modeli, doğrudan [Hugging Face Hub](https://huggingface.co/gismo-o/x-company-it-ticket-classifier) üzerinden yüklenmektedir. Bu, projenin boyutunu küçük tutar ve Git LFS sorunlarını ortadan kaldırır.
+- **Modelin Yüklenmesi:** IT niyet sınıflandırma modeli, doğrudan [Hugging Face Hub](https://huggingface.co/gismo-o/x-company-it-ticket-classifier) üzerinden yüklenmektedir.
 - **Veritabanı Oluşturma:** `chroma_db` vektör veritabanı, uygulama ilk kez çalıştığında `data/` klasöründeki dokümanları işleyerek oluşturulur. `data/` klasöründeki dosyaları güncellerseniz, deploy edilmiş uygulamanın önbelleğini temizlemeniz veya yerelde `chroma_db` klasörünü silmeniz gerekir.
 
 ---
