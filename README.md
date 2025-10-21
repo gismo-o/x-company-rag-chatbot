@@ -23,9 +23,9 @@ Proje, basit bir RAG modelinin ötesine geçerek, **hibrit bir yapı** kullanır
     <td align="center"><b>Veritabanı Kaydı (Google Sheets)</b></td>
   </tr>
   <tr>
-    <td><img src="https://raw.githubusercontent.com/gismo-o/x-company-rag-chatbot/main/assets/arayuz.png" width="250"></td>
-    <td><img src="https://raw.githubusercontent.com/gismo-o/x-company-rag-chatbot/main/assets/IT-ticket.png" width="250"></td>
-    <td><img src="https://raw.githubusercontent.com/gismo-o/x-company-rag-chatbot/main/assets/db.png" width="250"></td>
+    <td><img src="https://raw.githubusercontent.com/gismo-o/x-company-rag-chatbot/main/assets_/arayuz.png" width="250"></td>
+    <td><img src="https://raw.githubusercontent.com/gismo-o/x-company-rag-chatbot/main/assets_/IT-ticket.png" width="250"></td>
+    <td><img src="https://raw.githubusercontent.com/gismo-o/x-company-rag-chatbot/main/assets_/db.png" width="250"></td>
   </tr>
 </table>
 
