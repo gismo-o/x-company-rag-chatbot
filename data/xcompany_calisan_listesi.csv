@@ -1,0 +1,37 @@
+﻿CalisanID;AdSoyad;Unvan;Departman;Ekip;YoneticiID;Eposta;UzmanlikAlanlari
+100;Ayşe D;CEO;Yönetim;;-;ayse.d@xcompany.com;Stratejik Yönetim, Kurumsal Vizyon, Liderlik
+101;Murat A;Teknoloji Direktörü;Teknoloji;;100;murat.a@xcompany.com;Yazılım Mimarisi, Bulut Sistemleri, Liderlik
+102;Zeynep A;Ürün Geliştirme Direktörü;Ürün Geliştirme;;100;zeynep.a@xcompany.com;Ürün Stratejisi, Roadmap Planlama, Takım Yönetimi
+103;Cem Ö;Pazarlama Direktörü;Pazarlama;;100;cem.o@xcompany.com;Dijital Pazarlama, Marka Yönetimi, Performans Analizi
+104;Elif K;İnsan Kaynakları Direktörü;İnsan Kaynakları;;100;elif.k@xcompany.com;İK Stratejisi, Performans Yönetimi, Kurumsal Kültür
+105;Ahmet K;Finans Direktörü;Finans;;100;ahmet.k@xcompany.com;Finansal Planlama, Bütçe Yönetimi, Raporlama
+106;Emre Y;Kıdemli Yazılım Geliştirici;Teknoloji;Backend;101;emre.y@xcompany.com;Python, Django, REST API, SQL
+107;Selin G;Yazılım Geliştirici;Teknoloji;Backend;101;selin.g@xcompany.com;Java, Spring Boot, Mikroservisler
+108;Burak Ş;Yazılım Geliştirici;Teknoloji;Frontend;101;burak.s@xcompany.com;React, JavaScript, TailwindCSS
+109;Ece E;Kıdemli Yazılım Geliştirici;Teknoloji;Mobil Geliştirme;101;ece.e@xcompany.com;Flutter, Kotlin, Firebase
+110;Kerem U;Mobil Geliştirici;Teknoloji;Mobil Geliştirme;101;kerem.u@xcompany.com;Swift, UI Design, iOS Development
+111;Derya T;QA Mühendisi;Teknoloji;Test Otomasyonu;101;derya.t@xcompany.com;Selenium, Postman, Test Otomasyonu
+112;Can D;DevOps Mühendisi;Teknoloji;Bulut Operasyonları;101;can.d@xcompany.com;AWS, CI/CD, Docker, Kubernetes
+113;Melis S;Veri Mühendisi;Teknoloji;Veri Analitiği;101;melis.s@xcompany.com;SQL, ETL, PowerBI, Python
+114;Tolga Ç;Ürün Müdürü;Ürün Geliştirme;Core Ürün;102;tolga.c@xcompany.com;Roadmap, Kullanıcı Analizi, Agile
+115;Seda A;Ürün Yöneticisi Yardımcısı;Ürün Geliştirme;Core Ürün;102;seda.a@xcompany.com;Dokümantasyon, Sprint Takibi, Jira
+116;Okan G;Kıdemli UI/UX Tasarımcısı;Ürün Geliştirme;Tasarım;102;okan.g@xcompany.com;UI Tasarımı, Figma, Kullanıcı Deneyimi
+117;Cansu E;UI/UX Tasarımcısı;Ürün Geliştirme;Tasarım;102;cansu.e@xcompany.com;Wireframing, Prototipleme, Adobe XD
+118;Merve Y;Ürün Analisti;Ürün Geliştirme;Veri Analitiği;102;merve.y@xcompany.com;KPI Analizi, Tableau, SQL
+119;Berk D;Pazarlama Uzmanı;Pazarlama;Performans Pazarlaması;103;berk.d@xcompany.com;Google Ads, SEO, Kampanya Optimizasyonu
+120;Aslı K;Kıdemli Pazarlama Uzmanı;Pazarlama;Sosyal Medya;103;asli.k@xcompany.com;İçerik Planlama, Sosyal Medya Stratejisi, Influencer Marketing
+121;İlker B;Pazarlama Uzmanı;Pazarlama;Marka Yönetimi;103;ilker.b@xcompany.com;Kreatif Strateji, Görsel İletişim, Reklam Yönetimi
+122;Zeliha Ü;Veri Odaklı Pazarlama Uzmanı;Pazarlama;Veri Analitiği;103;zeliha.u@xcompany.com;Google Analytics, Segmentasyon, A/B Testi
+123;Pelin D;İK Uzmanı;İnsan Kaynakları;Performans ve Gelişim;104;pelin.d@xcompany.com;Performans Takibi, Eğitim Planlama, HRIS
+124;Yusuf Ş;Kıdemli İK İş Ortağı;İnsan Kaynakları;İşe Alım;104;yusuf.s@xcompany.com;Mülakat Teknikleri, İş Gücü Planlama, Yetkinlik Bazlı Seçim
+125;Naz A;İK Uzmanı;İnsan Kaynakları;Bordro;104;naz.a@xcompany.com;Bordro, SGK, Çalışan İlişkileri
+126;Melike Ç;Finans Uzmanı;Finans;Muhasebe;105;melike.c@xcompany.com;Muhasebe, Fatura Yönetimi, Raporlama
+127;Onur G;Kıdemli Finans Uzmanı;Finans;Bütçe Planlama;105;onur.g@xcompany.com;Bütçe Planlama, Excel, Finansal Modelleme
+128;Deniz K;Finans Uzmanı;Finans;Denetim;105;deniz.k@xcompany.com;Denetim, İç Kontrol, Risk Yönetimi
+129;Furkan Y;Finans Asistanı;Finans;Muhasebe;105;furkan.y@xcompany.com;Fatura Girişi, Excel, Ofis Uygulamaları
+130;Gamze T;Ofis Yöneticisi;Yönetim Destek;Ofis Yönetimi;100;gamze.t@xcompany.com;İdari İşler, Planlama, Organizasyon
+131;Baran E;Sistem Destek Uzmanı;Teknoloji;IT Destek;101;baran.e@xcompany.com;Active Directory, Ağ Yönetimi, VPN
+132;Dilara K;Stajyer Yazılım Geliştirici;Teknoloji;Frontend;101;dilara.k@xcompany.com;HTML, CSS, React
+133;Serhat Ö;Ürün Yönetimi Stajyeri;Ürün Geliştirme;Core Ürün;102;serhat.o@xcompany.com;Dokümantasyon, Jira, Kullanıcı Araştırması
+134;Buse A;İK Asistanı;İnsan Kaynakları;İşe Alım;104;buse.a@xcompany.com;Aday Takibi, İlan Yayını, Excel
+135;Cemre Ö;Pazarlama Stajyeri;Pazarlama;Sosyal Medya;103;cemre.o@xcompany.com;İçerik Üretimi, Sosyal Medya, Görsel Düzenleme

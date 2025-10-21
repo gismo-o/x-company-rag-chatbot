@@ -1,0 +1,26 @@
+﻿YazilimID;YazilimAdi;Kategori;SorumluDepartman;TeknikSorumlu;LisansTuru;LisansYenilemeTarihi;KullanimAmaciAciklamasi;Alternatifler
+1001;Figma;Tasarım;Pazarlama;Elif K.;Kullanıcı Başına Yıllık;15.12.2025;UI/UX ekiplerinin web ve mobil arayüz prototipleri oluşturması, paylaşıp geri bildirim toplaması için kullanılır.;Adobe XD, Sketch
+1002;Adobe Photoshop;Tasarım;Pazarlama;Elif K.;Kullanıcı Başına Yıllık;1.09.2025;Görsel tasarım, fotoğraf düzenleme ve kurumsal kimlik materyallerinin hazırlanması için kullanılır.;Affinity Photo, GIMP
+1003;Canva Pro;Tasarım;Kurumsal İletişim;Zeynep Ç.;Kullanıcı Başına Aylık;1.11.2025;Sosyal medya içerikleri, sunumlar ve infografiklerin hızlıca tasarlanması için kullanılır.;VistaCreate, Piktochart
+1004;Jira Software;Proje Yönetimi;Ürün Yönetimi;IT Destek Ekibi;Kullanıcı Başına Yıllık;10.07.2025;Agile sprint planlama, backlog yönetimi ve hata takibi için kullanılır.;Asana, Trello
+1005;Confluence;Bilgi Yönetimi;Ürün Yönetimi;IT Destek Ekibi;Kullanıcı Başına Yıllık;10.07.2025;Kurumsal bilgi tabanı, prosedürler ve proje dokümantasyonlarının tutulduğu platformdur.;Notion, Google Docs
+1006;Asana;Proje Yönetimi;Operasyon;Deniz K.;Kullanıcı Başına Yıllık;30.06.2025;Departmanlar arası görev paylaşımı, proje takibi ve ilerleme raporlaması için kullanılır.;Jira, Monday.com
+1007;Slack;İletişim;Tüm Departmanlar;BT Operasyon Ekibi;Kullanıcı Başına Yıllık;20.08.2025;Ekip içi iletişim, dosya paylaşımı ve entegrasyonlu kanal bazlı çalışma ortamı sunar.;Microsoft Teams, Google Chat
+1008;Zoom;İletişim;İnsan Kaynakları;BT Operasyon Ekibi;Kullanıcı Başına Yıllık;30.04.2025;Uzaktan toplantılar, görüşmeler ve webinarlar için kullanılır.;Google Meet, Cisco Webex
+1009;Salesforce Sales Cloud;CRM;Satış;Murat D.;Kullanıcı Başına Yıllık;1.10.2025;Müşteri ilişkileri, satış pipeline’ı ve tahminleme süreçlerinin yönetimi için kullanılır.;HubSpot, Zoho CRM
+1010;HubSpot Marketing Hub;CRM;Pazarlama;Zeynep Ç.;Kullanıcı Başına Yıllık;1.10.2025;E-posta pazarlama, müşteri segmentasyonu ve otomatik kampanyalar için kullanılır.;Mailchimp, ActiveCampaign
+1011;GitHub Enterprise;Geliştirici Araçları;Teknoloji;Ahmet Y.;Kullanıcı Başına Yıllık;15.06.2025;Kod versiyonlama, repository yönetimi ve CI/CD entegrasyonları için kullanılır.;GitLab, Bitbucket
+1012;Visual Studio Code;Geliştirici Araçları;Teknoloji;Ahmet Y.;Açık Kaynak (MIT);Yok;Yazılım geliştirme ve hata ayıklama için çok dilli, eklenti destekli IDE olarak kullanılır.;IntelliJ IDEA, Sublime Text
+1013;PyCharm Professional;Geliştirici Araçları;Teknoloji;Ahmet Y.;Kullanıcı Başına Yıllık;20.09.2025;Python tabanlı yazılımların geliştirilmesi, test edilmesi ve hata ayıklanması için kullanılır.;VS Code, Spyder
+1014;Tableau Desktop;Analitik;Veri Analitiği;Selin A.;Kullanıcı Başına Yıllık;5.11.2025;Görsel analiz, dashboard oluşturma ve veri trendlerinin keşfi için kullanılır.;Power BI, Looker Studio
+1015;Power BI Pro;Analitik;Finans;Selin A.;Kullanıcı Başına Yıllık;10.11.2025;Finansal raporlama, veri modelleme ve üst yönetim KPI izleme için kullanılır.;Tableau, Qlik Sense
+1016;Google Workspace;Ofis Verimliliği;Tüm Departmanlar;BT Operasyon Ekibi;Kullanıcı Başına Yıllık;25.09.2025;E-posta, takvim, doküman paylaşımı ve bulut depolama hizmeti sağlar.;Microsoft 365, Zoho Workplace
+1017;Notion;Bilgi Yönetimi;Ürün Yönetimi;IT Destek Ekibi;Freemium;Yok;Görev yönetimi, dokümantasyon ve bilgi paylaşımı için hafif ve esnek bir platformdur.;Confluence, Coda
+1018;Postman;Geliştirici Araçları;Teknoloji;Ahmet Y.;Freemium;Yok;API testleri, entegrasyon doğrulama ve request otomasyonu için kullanılır.;Insomnia, Hoppscotch
+1019;CrowdStrike Falcon;Siber Güvenlik;BT Güvenlik;Emre T.;Sunucu Lisansı;20.12.2025;Uç nokta güvenliği, tehdit analizi ve saldırı önleme için kurumsal güvenlik yazılımıdır.;SentinelOne, Microsoft Defender for Endpoint
+1020;Okta Workforce Identity;Kimlik Yönetimi;BT Güvenlik;Emre T.;Kullanıcı Başına Yıllık;1.05.2025;Kullanıcı kimlik doğrulama, SSO ve erişim yönetimi süreçlerinde kullanılır.;Azure AD, Ping Identity
+1021;ServiceNow;BT Hizmet Yönetimi;BT Operasyon;Deniz K.;Kullanıcı Başına Yıllık;15.10.2025;Kurumsal ITSM süreçleri, incident ve problem yönetimi için kullanılır.;BMC Remedy, Cherwell
+1022;Splunk Enterprise;Analitik / Log Yönetimi;BT Güvenlik;Emre T.;Sunucu Lisansı;31.12.2025;Kurumsal log yönetimi, güvenlik ve operasyonel veri analitiği sağlar.;ELK Stack, Datadog
+1023;Adobe Illustrator;Tasarım;Pazarlama;Elif K.;Kullanıcı Başına Yıllık;1.08.2025;Vektörel tasarım ve kurumsal grafik üretimi için kullanılır.;CorelDRAW, Affinity Designer
+1024;Monday.com;Proje Yönetimi;Operasyon;Deniz K.;Kullanıcı Başına Yıllık;15.07.2025;Proje planlama, görev takibi ve ekip işbirliği için kullanılır.;Asana, Jira
+1025;Zoom Phone;İletişim;İK ve Operasyon;BT Operasyon Ekibi;Kullanıcı Başına Yıllık;20.05.2025;Kurumsal VoIP çözümleri ve uzaktan telefon görüşmeleri için kullanılır.;RingCentral, Microsoft Teams Phone

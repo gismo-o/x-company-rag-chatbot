@@ -1,0 +1,11 @@
+{
+  "xcompany_calisan_listesi.csv": {
+    "template": "{AdSoyad}, {Unvan} unvanıyla {Departman} departmanında görev yapmaktadır. Uzmanlık alanları şunlardır: {UzmanlikAlanlari}."
+  },
+  "yazilimlar.csv": {
+    "template": "{YazilimAdi}, {Kategori} kategorisinde bir yazılımdır ve temel olarak {KullanimAmaciAciklamasi}. Bu yazılımın sorumluluğu {SorumluDepartman} departmanındadır ve teknik sorumlusu {TeknikSorumlu}'dur. Lisans türü '{LisansTuru}' olup, bir sonraki yenileme tarihi {LisansYenilemeTarihi}'dir. Bu yazılıma alternatif olarak {Alternatifler} düşünülebilir."
+  },
+  "_default": {
+    "template": "Kayıt: {__COLUMN_0__} - Detaylar: {__ALL_COLUMNS__}."
+  }
+}

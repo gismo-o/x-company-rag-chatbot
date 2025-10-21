@@ -1,0 +1,23 @@
+# Python sanal ortamı
+.venv/
+venv/
+*.venv
+
+# Hassas bilgiler ve API anahtarları
+.env
+/.streamlit/secrets.toml
+
+# Çalışma zamanında oluşturulan veritabanları ve önbellekler
+chroma_db/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Editör ve IDE ayar dosyaları
+.vscode/
+.idea/
+
+# İşletim sistemi dosyaları
+.DS_Store
+Thumbs.db
