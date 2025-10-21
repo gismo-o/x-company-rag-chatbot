@@ -16,16 +16,17 @@ Proje, basit bir RAG modelinin ötesine geçerek, **hibrit bir yapı** kullanır
 
 ---
 <!-- GÖRSELLERİN YAN YANA GÖSTERİLDİĞİ TABLO -->
-<table style="margin:auto; text-align:center;">
+
+<table align="center">
   <tr>
-    <td><strong>Genel Sorgu Arayüzü</strong></td>
-    <td><strong>IT Destek Formu</strong></td>
-    <td><strong>Veritabanı Kaydı (Google Sheets)</strong></td>
+    <td align="center"><b>Genel Sorgu Arayüzü</b></td>
+    <td align="center"><b>IT Destek Formu</b></td>
+    <td align="center"><b>Veritabanı Kaydı (Google Sheets)</b></td>
   </tr>
   <tr>
-    <td><img src="https://raw.githubusercontent.com/gismo-o/x-company-rag-chatbot/main/assets_/arayuz.png" width="250" alt="Genel Sorgu Arayüzü"></td>
-    <td><img src="https://raw.githubusercontent.com/gismo-o/x-company-rag-chatbot/main/assets_/IT-ticket.png" width="250" alt="IT Destek Formu"></td>
-    <td><img src="https://raw.githubusercontent.com/gismo-o/x-company-rag-chatbot/main/assets_/db.png" width="250" alt="Veritabanı Kaydı"></td>
+    <td><img src="https://raw.githubusercontent.com/gismo-o/x-company-rag-chatbot/main/assets_/arayuz.png" width="250"></td>
+    <td><img src="https://raw.githubusercontent.com/gismo-o/x-company-rag-chatbot/main/assets_/IT-ticket.png" width="250"></td>
+    <td><img src="https://raw.githubusercontent.com/gismo-o/x-company-rag-chatbot/main/assets_/db.png" width="250"></td>
   </tr>
 </table>
 
