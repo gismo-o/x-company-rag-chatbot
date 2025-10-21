@@ -175,7 +175,7 @@ x-company-rag-chatbot/
 ├── .gitignore               # Git tarafından takip edilmeyecek dosya ve klasörlerin listesi.
 ├── app.py                   # Streamlit uygulamasının tüm mantığını içeren ana kod.
 ├── csv_configs.json         # CSV dosyalarının metne dönüştürülme şablonlarını içeren konfigürasyon dosyası.
-├── IT_tickets_model.ipynb   # IT niyet sınıflandırma modelini eğitmek için kullanılan Jupyter Notebook.
+├── IT_tickets_model.py      # IT niyet sınıflandırma modelini eğitmek için kullanılan dosya.
 ├── packages.txt             # Streamlit Cloud için gerekli olan sistem (apt-get) bağımlılıkları.
 └── requirements.txt         # Projenin ihtiyaç duyduğu Python kütüphaneleri.
 ```
