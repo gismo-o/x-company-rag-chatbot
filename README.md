@@ -1,7 +1,6 @@
 # X-Company Dijital Asistan
 
-![X-Company Dijital Asistan Arayüzü]()
-
+![X-Company Dijital Asistan Arayüzü](https://github.com/user-attachments/assets/f172d96b-d148-4d77-b5e2-f82a04aad5d1)
 ---
 
 ### Proje Hakkında
