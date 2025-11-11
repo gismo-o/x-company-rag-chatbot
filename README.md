@@ -1,6 +1,25 @@
 # X-Company Dijital Asistan
 
-## ![X-Company Dijital Asistan Arayüzü](https://github.com/user-attachments/assets/f172d96b-d148-4d77-b5e2-f82a04aad5d1)
+---
+
+<!-- GÖRSELLERİN YAN YANA GÖSTERİLDİĞİ TABLO -->
+
+<table align="center">
+  <tr>
+    <td align="center"><b>Uygulama Başlangıç Arayüzü</b></td>
+    <td align="center"><b>Genel Sorgu Arayüzü</b></td>
+    <td align="center"><b>IT Destek Formu</b></td>
+    <td align="center"><b>Veritabanı Kaydı (Google Sheets)</b></td>
+  </tr>
+  <tr>
+    <td><img src="https://raw.githubusercontent.com/gismo-o/x-company-rag-chatbot/main/assets/arayuz1.png" width="250"></td>
+    <td><img src="https://raw.githubusercontent.com/gismo-o/x-company-rag-chatbot/main/assets/arayuz2.png" width="250"></td>
+    <td><img src="https://raw.githubusercontent.com/gismo-o/x-company-rag-chatbot/main/assets/ticket.png" width="250"></td>
+    <td><img src="https://raw.githubusercontent.com/gismo-o/x-company-rag-chatbot/main/assets/db.png" width="250"></td>
+  </tr>
+</table>
+
+---
 
 ### Proje Hakkında
 
@@ -16,25 +35,6 @@ Proje, basit bir RAG modelinin ötesine geçerek, **hibrit bir yapı** kullanır
 
 1.  **Bilgi Asistanı (RAG):** PDF ve CSV dosyalarındaki bilgilere dayanarak genel soruları yanıtlar.
 2.  **IT Destek Yönlendiricisi:** Kullanıcının niyetini analiz eder. Eğer bir IT sorunu tespit ederse, RAG'i atlayarak kullanıcıyı ilgili destek formuna yönlendirir ve talebi bir veritabanına kaydeder.
-
----
-
-<!-- GÖRSELLERİN YAN YANA GÖSTERİLDİĞİ TABLO -->
-
-<table align="center">
-  <tr>
-    <td align="center"><b>Uygulama Başlangıç Arayüzü</b></td>
-    <td align="center"><b>Genel Sorgu Arayüzü</b></td>
-    <td align="center"><b>IT Destek Formu</b></td>
-    <td align="center"><b>Veritabanı Kaydı (Google Sheets)</b></td>
-  </tr>
-  <tr>
-    <td><img src="https://raw.githubusercontent.com/gismo-o/x-company-rag-chatbot/main/assets/arayuz.png" width="250"></td>
-    <td><img src="https://raw.githubusercontent.com/gismo-o/x-company-rag-chatbot/main/assets/IT-ticket.png" width="250"></td>
-    <td><img src="https://raw.githubusercontent.com/gismo-o/x-company-rag-chatbot/main/assets/db.png" width="250"></td>
-    <td><img src="https://raw.githubusercontent.com/gismo-o/x-company-rag-chatbot/main/assets/db.png" width="250"></td>
-  </tr>
-</table>
 
 ---
 
@@ -208,7 +208,7 @@ Uygulama, kullanıcıdan bir soru aldığında iki aşamalı bir mantıkla çal�
   1.  Soru, **RAG (Retrieval-Augmented Generation)** pipeline'ına yönlendirilir.
   2.  **Kısa Süreli Bellek:** Sistemin bağlamı anlaması için, kullanıcının son birkaç mesajı da konuşma geçmişi olarak işleme dahil edilir.
   3.  **Vektör Arama:** Kullanıcının sorusu bir embedding modeline gönderilerek vektöre dönüştürülür ve **ChromaDB**'de en alakalı metin parçacıkları ("context") bulunur.
-  4.  **Zenginleştirilmiş Sorgu:** Bulunan "context", konuşma geçmişi ve kullanıcının sorusu bir araya getirilerek **Google Gemini 1.5 Flash** modeline gönderilir.
+  4.  **Zenginleştirilmiş Sorgu:** Bulunan "context", konuşma geçmişi ve kullanıcının sorusu bir araya getirilerek **Google Gemini 2.5 Flash** modeline gönderilir.
   5.  **Cevap Üretimi:** Gemini, kendisine verilen bu zenginleştirilmiş bağlama sadık kalarak, konuşmanın akışını da dikkate alan bir cevap üretir.
 
 ---
