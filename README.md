@@ -6,6 +6,8 @@
 
 Bu proje, **Akbank GenAI Bootcamp** kapsamında, `X-Company` adlı kurgusal bir şirket için geliştirilmiş, RAG (Retrieval-Augmented Generation) tabanlı bir kurumsal dijital asistandır. Asistan, şirket içi dokümanları (politikalar, kılavuzlar) ve yapısal verileri (çalışan ve yazılım listeleri) anlayarak çalışanların sorularına doğal dilde yanıt verir.
 
+Asistan, sadece tekil soruları yanıtlamakla kalmaz; aynı zamanda her kullanıcı oturumunu benzersiz bir kimlikle (e-posta) takip eder ve konuşma geçmişini **kısa süreli bir bellek** olarak kullanarak, "peki onun detayları neler?" gibi bağlam gerektiren diyalogları da başarıyla yönetir.
+
 #### Projenin Amacı
 
 Projenin temel amacı, şirket içi bilgiye erişimi kolaylaştırmak, sıkça sorulan soruları otomatikleştirerek İK ve BT departmanlarının yükünü azaltmak ve çalışanlara 7/24 hizmet veren akıllı bir destek kanalı sunmaktır.
@@ -21,6 +23,7 @@ Proje, basit bir RAG modelinin ötesine geçerek, **hibrit bir yapı** kullanır
 
 <table align="center">
   <tr>
+    <td align="center"><b>Uygulama Başlangıç Arayüzü</b></td>
     <td align="center"><b>Genel Sorgu Arayüzü</b></td>
     <td align="center"><b>IT Destek Formu</b></td>
     <td align="center"><b>Veritabanı Kaydı (Google Sheets)</b></td>
@@ -28,6 +31,7 @@ Proje, basit bir RAG modelinin ötesine geçerek, **hibrit bir yapı** kullanır
   <tr>
     <td><img src="https://raw.githubusercontent.com/gismo-o/x-company-rag-chatbot/main/assets/arayuz.png" width="250"></td>
     <td><img src="https://raw.githubusercontent.com/gismo-o/x-company-rag-chatbot/main/assets/IT-ticket.png" width="250"></td>
+    <td><img src="https://raw.githubusercontent.com/gismo-o/x-company-rag-chatbot/main/assets/db.png" width="250"></td>
     <td><img src="https://raw.githubusercontent.com/gismo-o/x-company-rag-chatbot/main/assets/db.png" width="250"></td>
   </tr>
 </table>
@@ -155,12 +159,14 @@ Uygulama `http://localhost:8501` adresinde başlayacaktır.
 ```
 x-company-rag-chatbot/
 │
-├── .streamlit/
-│   └── secrets.toml         # Streamlit Cloud deploy'u için hassas bilgiler (repo'ya dahil değil).
+├── .streamlit/  # Streamlit Cloud deploy'u için hassas bilgiler (repo'ya dahil değil).
+│   ├── config.toml
+│   └── secrets.toml
 │
 ├── assets/
-│   ├── arayuz.png           # README'de kullanılan proje görselleri.
-│   ├── IT-ticket.png
+│   ├── arayuz1.png           # README'de kullanılan proje görselleri.
+│   ├── ticket.png
+│   ├── aratuz2.png
 │   └── db.png
 │
 ├── data/                    # Chatbot'un bilgi kaynağı olan tüm PDF ve CSV dokümanları.
@@ -200,10 +206,10 @@ Uygulama, kullanıcıdan bir soru aldığında iki aşamalı bir mantıkla çal�
   4.  Kullanıcı formu doldurup gönderdiğinde, talep **Google Sheets API** aracılığıyla bir e-tabloya kaydedilir.
 - **Eğer Soru Genel Bir Bilgi Sorusuysa:**
   1.  Soru, **RAG (Retrieval-Augmented Generation)** pipeline'ına yönlendirilir.
-  2.  Kullanıcının sorusu bir embedding modeline gönderilerek vektöre dönüştürülür.
-  3.  Bu vektör, `data/` klasöründeki tüm dokümanların önceden işlenip saklandığı **ChromaDB** vektör veritabanında anlamsal olarak en alakalı metin parçacıklarını ("context") bulmak için kullanılır.
-  4.  Bulunan bu "context" ve kullanıcının orijinal sorusu, bir prompt şablonu içinde birleştirilerek **Google Gemini 2.5 Flash** modeline gönderilir.
-  5.  Gemini, kendisine verilen bağlama sadık kalarak bir cevap üretir ve bu cevap kullanıcıya gösterilir.
+  2.  **Kısa Süreli Bellek:** Sistemin bağlamı anlaması için, kullanıcının son birkaç mesajı da konuşma geçmişi olarak işleme dahil edilir.
+  3.  **Vektör Arama:** Kullanıcının sorusu bir embedding modeline gönderilerek vektöre dönüştürülür ve **ChromaDB**'de en alakalı metin parçacıkları ("context") bulunur.
+  4.  **Zenginleştirilmiş Sorgu:** Bulunan "context", konuşma geçmişi ve kullanıcının sorusu bir araya getirilerek **Google Gemini 1.5 Flash** modeline gönderilir.
+  5.  **Cevap Üretimi:** Gemini, kendisine verilen bu zenginleştirilmiş bağlama sadık kalarak, konuşmanın akışını da dikkate alan bir cevap üretir.
 
 ---
 

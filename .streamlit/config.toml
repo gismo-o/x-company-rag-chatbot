@@ -1,0 +1,17 @@
+[theme]
+
+# Ana arka plan rengi
+backgroundColor = "#42323bff"
+
+# İkincil arka plan rengi (örneğin sidebar, expander'ların içi)
+secondaryBackgroundColor = "#262730"
+
+# Ana metin rengi
+textColor = "#FAFAFA"
+
+# Linklerin, butonların ve diğer interaktif elementlerin ana rengi
+primaryColor = "#7792E3"
+
+# Font ailesi (isteğe bağlı)
+# "sans serif", "serif", veya "monospace" seçeneklerinden birini kullanabilirsiniz.
+font = "sans serif"
